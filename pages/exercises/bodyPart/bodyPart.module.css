@@ -1,0 +1,54 @@
+.flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    padding: 20px;
+    border-radius: 5px;
+    width: 390px;
+    max-width: 400px;
+  }
+  .image{
+    object-fit:fill;
+    border-radius:5px;
+  }
+  
+  .title {
+    color: #333;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin:20px 20px;
+  }
+  .text {
+    color: green;
+  }
+  .btn {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #4979ff;
+    border-radius: 140px;
+    color: white;
+    text-align: center;
+  }
+  .badge{
+    width: 20px;
+    background: green;
+    padding:.4em;
+    text-align: center;
+    color:white;
+    border-radius: 100px;
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+  .badges{
+    margin:20px 20px;
+  }
+  
