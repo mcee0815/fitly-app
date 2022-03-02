@@ -1,7 +1,8 @@
 .menuGrid{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .title {
@@ -16,12 +17,15 @@
   color: green;
 }
 .btn {
-  display: block;
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
   padding: 5px 5px;
   margin: 10px;
   background: #4979ff;
-  border-radius: 140px;
+  border-radius: 10px;
   color: white;
   text-align: center;
 }
