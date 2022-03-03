@@ -11,12 +11,14 @@ const Menu = () => {
     <div className={styles.menuGrid}>
         <Link href="/exercises"><a className={styles.btn}>All</a></Link>
         
-        <Link href="/exercises/bodyPart/back">
-            <a className={styles.btn}>
-            <Image src="/upperarms.svg" width={65} height={55} alt="logo"/>
+        
+            <Link href="/exercises/bodyPart/back">
+                <a className={styles.btn}>
+                    <Image src="/upperarms.svg" width={65} height={55} alt="logo"/>
                     Back
-            </a>    
-        </Link>
+                </a>    
+            </Link>
+        
 
         <Link href="/exercises/bodyPart/cardio"><a className={styles.btn}><Image src="/cardio.svg" width={65} height={55} alt="logo"/>Cardio</a>
         </Link>
